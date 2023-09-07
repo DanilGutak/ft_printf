@@ -18,8 +18,7 @@ AR				=	ar
 ARFLAGS 		=	rcs
 RM				=	rm -rf
 
-SRC				=	ft_printf
-SRCS 			=	$(addsuffix .c, $(SRC))
+SRCS 			=	ft_printf.c
 
 OBJ_DIR			=	obj
 OBJS			=	$(SRCS:%.c=$(OBJ_DIR)/%.o)

@@ -38,4 +38,3 @@ int	ft_printhex(unsigned long n, char format)
 		ret += ft_putchar_fd(buffer[--i], 1);
 	return (ret);
 }
-	
